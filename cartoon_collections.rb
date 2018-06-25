@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(veggies)
   result=veggies.map do |vegetable|
-    vegetable.first.upcase + "!"
+    vegetable.capitalize + "!"
   end
     binding.pry
 end
