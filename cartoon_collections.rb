@@ -12,7 +12,9 @@ def summon_captain_planet(veggies)
   end
 end
 
-def long_planeteer_calls()
+def long_planeteer_calls(calls_long)
+  calls_long.each do |call|
+    
 end
 
 def find_the_cheese# code an argument here
