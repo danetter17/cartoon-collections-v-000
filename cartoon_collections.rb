@@ -1,3 +1,5 @@
+require "pry"
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, index|
     puts "#{index.to_i+1}. #{dwarf}"
@@ -5,6 +7,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
+  binding.pry
   veggies.map do |vegetable|
     vegetable.first.upcase + "!"
   end
