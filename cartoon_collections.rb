@@ -10,7 +10,6 @@ def summon_captain_planet(veggies)
   result=veggies.map do |vegetable|
     vegetable.capitalize + "!"
   end
-    binding.pry
 end
 
 def long_planeteer_calls# code an argument here
