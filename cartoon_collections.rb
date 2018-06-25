@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.map.first.upcase do |vegetable|
-    "#{vegetable + "!"}"
+    "#{vegetable}"
   end
 end
 
