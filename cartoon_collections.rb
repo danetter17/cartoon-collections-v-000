@@ -7,10 +7,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  binding.pry
-  veggies.map do |vegetable|
+  result=veggies.map do |vegetable|
     vegetable.first.upcase + "!"
   end
+    binding.pry
 end
 
 def long_planeteer_calls# code an argument here
